@@ -2,5 +2,5 @@ Playing around with GraphQl, storing todos in memory. This server is intended to
 
 ### How run:
 ```go
-  gon run ./server.go
+  go run ./server.go
 ```
