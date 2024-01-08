@@ -39,7 +39,7 @@ func (r *Resolver) CreateTodos(input model.NewTodo) (*model.Todo, error) {
 		Text: input.Text,
 		User: &model.User{
 			ID:   input.UserID,
-			Name: "user " + input.UserID,
+			Name: input.UserID,
 		},
 	}
 	r.Todos = append(r.Todos, todo)
