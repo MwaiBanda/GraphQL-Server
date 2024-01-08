@@ -2,5 +2,9 @@ Playing around with GraphQl, storing todos in memory, and performing CRUD functi
 
 ### How run:
 ```go
-  go run ./server.go
+   go run ./server.go
+```
+### Generate Schema:
+```go
+   go run github.com/99designs/gqlgen generate
 ```
